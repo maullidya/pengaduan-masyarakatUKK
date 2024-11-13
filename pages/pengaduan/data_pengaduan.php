@@ -16,7 +16,7 @@
         <div class="col-xs-12">
       <div class="box box-primary">
         <div class="box-header">
-        <?php if ($_SESSION["level"] == 'admin' || $_SESSION["level"] == 'masyarakat' ) { ?>
+        <?php if ($_SESSION["level"] == 'masyarakat' ) { ?>
           <a href="index.php?page=tambah_pengaduan" class="btn btn-primary" role="button" title="Tambah Data"><i class="glyphicon glyphicon-plus"></i> Tambah</a>
           <?php } ?>
           <button class="btn btn-default" onclick="printData()" title="Print Data"><i class="glyphicon glyphicon-print"></i> Print</button>

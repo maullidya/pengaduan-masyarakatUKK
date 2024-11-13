@@ -1,5 +1,5 @@
 <?php
-include "../../../conf/conn.php";
+include "../../conf/conn.php";
 $nik = $_GET['nik'];
 $query = ("DELETE FROM masyarakat WHERE nik ='$nik'");
 if(!mysqli_query($koneksi, "$query")){

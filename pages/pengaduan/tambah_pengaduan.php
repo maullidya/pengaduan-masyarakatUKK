@@ -28,6 +28,7 @@
                 <input type="date" name="tgl" class="form-control" placeholder="Tanggal Pengaduan" required>
               </div>
                 <input type="hidden" name="nik" id="nik" value="<?php echo  $_SESSION['nik']?>">
+                
               <div class="form-group">
                 <label>isi laporan</label>
                 <textarea name="isi" class="form-control" placeholder="isi laporan" required></textarea>
